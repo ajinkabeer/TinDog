@@ -1,0 +1,159 @@
+
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+#features {
+  padding: 7% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feabox {
+  text-align: center;
+  padding: 5%;
+}
+
+.fafe {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fafe:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+  font-family: 'Ubuntu';
+  font-size: 13px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* Call to action */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  font-family: 'Signika Negative';
+  font-weight: 900;
+  padding: 7% 15% 5%;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.footico {
+  margin: 5px;
+  padding-top: 2%;
+   padding-bottom: 3%;
+}
+
+.footico:hover {
+  color: #ff4c68;
+}
